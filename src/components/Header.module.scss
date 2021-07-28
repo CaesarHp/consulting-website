@@ -1,0 +1,35 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 3rem 15rem;
+  background-color: white;
+}
+
+.header-logo {
+  height: 4rem;
+}
+
+.header-list {
+  display: flex;
+
+  list-style: none;
+
+  & li:not(:last-child) {
+    margin-right: 8rem;
+  }
+
+  &-link {
+    font-family: inherit;
+    font-size: 1.4rem;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  &-link:link,
+  &-link:visited {
+    color: black;
+  }
+}

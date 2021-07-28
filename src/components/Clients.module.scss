@@ -1,0 +1,17 @@
+@import "../scss-var.scss";
+
+.clients-container {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 5rem 15rem;
+  background-color: $color-grey-light-3;
+}
+
+.clients-img-container {
+  padding: 2rem;
+}
+
+.clients-img {
+  height: 4rem;
+}

@@ -1,0 +1,65 @@
+@import "../scss-var.scss";
+
+.about-container {
+  display: flex;
+  padding: 10rem 15rem;
+  background: white;
+}
+
+.about-img {
+  width: 49rem;
+  height: 50rem;
+  margin-right: 8rem;
+  box-shadow: 1rem 1rem 3rem rgba(0, 0, 0, 0.3);
+}
+
+.about-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  font-family: inherit;
+}
+
+.about-info {
+  &-title {
+    font-size: 4rem;
+    font-weight: 700;
+    color: $color-grey-dark-1;
+    margin-bottom: 5rem;
+  }
+
+  &-paragraph {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: $color-grey-dark-3;
+    line-height: 1.5;
+    margin-bottom: 5rem;
+  }
+
+  &-details {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+  }
+
+  &-detail {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: $color-grey-dark-1;
+    margin-bottom: 2rem;
+  }
+}
+
+.about-button {
+  padding: 2rem 3rem;
+  border: none;
+  border-radius: 100px;
+  background-color: $color-grey-dark-1;
+  cursor: pointer;
+
+  font-family: inherit;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: white;
+}

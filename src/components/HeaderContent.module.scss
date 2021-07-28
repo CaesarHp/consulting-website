@@ -1,0 +1,52 @@
+@import "../scss-var.scss";
+
+.header-content-container {
+  min-height: 56rem;
+  height: 56rem;
+  padding: 10rem 15rem;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../local-img/header-content.jpg");
+
+  display: flex;
+  align-items: center;
+}
+
+.header-content-info-container {
+  max-width: 60%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.header-content-title {
+  font-family: inherit;
+  font-size: 4.8rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.header-content-paragraph {
+  font-family: inherit;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: white;
+  line-height: 1.5;
+  margin-bottom: 5rem;
+}
+
+.header-content-button {
+  padding: 2rem 3rem;
+  border: none;
+  border-radius: 100px;
+  background-color: $color-grey-dark-1;
+  cursor: pointer;
+
+  font-family: inherit;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: white;
+}

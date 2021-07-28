@@ -1,0 +1,81 @@
+@import "../scss-var.scss";
+
+.service-container {
+  min-height: 56rem;
+  height: 64rem;
+  padding: 10rem 15rem;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../local-img/service.jpg");
+  font-family: inherit;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 65%;
+}
+
+.service-subtitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: $color-grey-dark-1;
+  margin-bottom: 2rem;
+}
+
+.service-description {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: $color-grey-dark-1;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.service-title {
+  font-size: 4.2rem;
+  font-weight: 700;
+  color: $color-grey-dark-1;
+  margin-bottom: 2rem;
+}
+
+.service-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.service-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+
+  &-number {
+    font-size: 5rem;
+    font-weight: 300;
+    font-style: italic;
+    color: $color-grey-dark-3;
+    margin-bottom: 1rem;
+  }
+
+  &-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: $color-grey-dark-1;
+    margin-bottom: 2rem;
+  }
+
+  &-info {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: $color-grey-dark-3;
+    line-height: 1.5;
+  }
+}
