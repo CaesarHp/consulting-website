@@ -2,15 +2,37 @@
 
 .about-container {
   display: flex;
+  flex-direction: row;
   padding: 10rem 15rem;
   background: white;
+
+  @media only screen and (max-width: $bp-medium) {
+    flex-direction: column;
+    align-items: center;
+
+    padding: 8rem;
+  }
+
+  @media only screen and (max-width: $bp-medium) {
+    padding: 6rem;
+  }
 }
 
 .about-img {
-  width: 49rem;
-  height: 50rem;
+  max-width: 49rem;
+  max-height: 50rem;
   margin-right: 8rem;
   box-shadow: 1rem 1rem 3rem rgba(0, 0, 0, 0.3);
+
+  @media only screen and (max-width: $bp-medium) {
+    margin: 0;
+    margin-bottom: 5rem;
+  }
+
+  @media only screen and (max-width: $bp-smallest) {
+    max-width: 29rem;
+    max-height: 30rem;
+  }
 }
 
 .about-info-container {
@@ -19,6 +41,11 @@
   justify-content: flex-end;
   align-items: flex-start;
   font-family: inherit;
+
+  @media only screen and (max-width: $bp-medium) {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .about-info {
@@ -35,12 +62,21 @@
     color: $color-grey-dark-3;
     line-height: 1.5;
     margin-bottom: 5rem;
+
+    @media only screen and (max-width: $bp-medium) {
+      text-align: center;
+    }
   }
 
   &-details {
     display: flex;
     flex-direction: column;
     margin-bottom: 5rem;
+
+    @media only screen and (max-width: $bp-medium) {
+      align-items: center;
+      text-align: center;
+    }
   }
 
   &-detail {
@@ -48,6 +84,10 @@
     font-weight: 700;
     color: $color-grey-dark-1;
     margin-bottom: 2rem;
+
+    @media only screen and (max-width: $bp-small) {
+      text-align: center;
+    }
   }
 }
 

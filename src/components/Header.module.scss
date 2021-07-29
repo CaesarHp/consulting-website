@@ -9,6 +9,14 @@
   background-color: white;
   position: fixed;
   width: 100%;
+
+  @media only screen and (max-width: $bp-medium) {
+    padding: 2rem 8rem;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    padding: 2rem 6rem;
+  }
 }
 
 .header-logo {

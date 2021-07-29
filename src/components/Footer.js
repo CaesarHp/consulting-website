@@ -27,7 +27,7 @@ const Footer = function () {
                   Official Address
                 </span>
                 <span className={classes["footer-info-detail-subtitle"]}>
-                  3456 Yonge St. Toronto ON <br /> M1A 2B3
+                  3456 Yonge St. Toronto ON M1A 2B3
                 </span>
               </div>
             </div>

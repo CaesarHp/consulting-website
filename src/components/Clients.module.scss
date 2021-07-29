@@ -6,12 +6,33 @@
 
   padding: 5rem 15rem;
   background-color: $color-grey-light-3;
+
+  @media only screen and (max-width: $bp-medium) {
+    flex-wrap: wrap;
+    padding: 3rem 8rem;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    padding: 2rem;
+  }
 }
 
 .clients-img-container {
-  padding: 2rem;
+  padding: 1.5rem;
+
+  @media only screen and (max-width: $bp-medium) {
+    margin: 1rem;
+  }
 }
 
 .clients-img {
-  height: 4rem;
+  max-height: 3.5rem;
+
+  @media only screen and (max-width: $bp-small) {
+    max-height: 3rem;
+  }
+
+  @media only screen and (max-width: $bp-smallest) {
+    max-height: 2.5rem;
+  }
 }

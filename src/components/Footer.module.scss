@@ -6,12 +6,25 @@
   background: $color-grey-dark-1;
   color: white;
   font-family: inherit;
+
+  @media only screen and (max-width: $bp-small) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 8rem 6rem;
+  }
 }
 
 .footer-icon-info {
   width: 2.5rem;
   height: 2.5rem;
   margin-right: 2rem;
+
+  @media only screen and (max-width: $bp-small) {
+    margin: 0;
+    margin-bottom: 2rem;
+  }
 }
 
 .footer-icon-social {
@@ -23,6 +36,14 @@
   display: flex;
   flex-direction: column;
   margin-right: 10rem;
+
+  @media only screen and (max-width: $bp-small) {
+    margin: 0;
+    margin-bottom: 5rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
 }
 
 .footer-info-title {
@@ -34,6 +55,13 @@
 .footer-info-details {
   display: flex;
   flex-direction: column;
+
+  @media only screen and (max-width: $bp-small) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+  }
 }
 
 .footer-info-detail {
@@ -41,22 +69,47 @@
     display: flex;
     align-items: flex-start;
     margin-bottom: 3rem;
+
+    @media only screen and (max-width: $bp-small) {
+      margin: 0;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
   }
 
   &-inner-container {
     display: flex;
     flex-direction: column;
+
+    @media only screen and (max-width: $bp-small) {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
   }
 
   &-title {
     font-size: 1.5rem;
     font-weight: 700;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
 
   &-subtitle {
     font-size: 1.3rem;
     font-weight: 400;
+    line-height: 1.6;
+
+    @media only screen and (max-width: $bp-small) {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+@media only screen and (max-width: $bp-small) {
+  .footer-info-detail-container:not(:last-child) {
+    margin-right: 2rem;
   }
 }
 
@@ -64,6 +117,13 @@
   display: flex;
   flex-direction: column;
   max-width: 30%;
+
+  @media only screen and (max-width: $bp-small) {
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
 
 .footer-about-title {
