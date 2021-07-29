@@ -2,7 +2,7 @@ import classes from "./Service.module.scss";
 
 const Service = function () {
   return (
-    <div className={classes["service-container"]}>
+    <div className={classes["service-container"]} id="service">
       <div className={classes["service-title-container"]}>
         <span className={classes["service-subtitle"]}>
           - Consulting Agency with Perfect Experience -

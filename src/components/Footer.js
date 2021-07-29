@@ -13,7 +13,7 @@ import classes from "./Footer.module.scss";
 
 const Footer = function () {
   return (
-    <div className={classes["footer-container"]}>
+    <div className={classes["footer-container"]} id="contact">
       <div className={classes["footer-info-container"]}>
         <span className={classes["footer-info-title"]}>Contact Us</span>
         <IconContext.Provider

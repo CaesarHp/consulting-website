@@ -3,7 +3,7 @@ import aboutImg from "../local-img/about.jpg";
 
 const About = function () {
   return (
-    <div className={classes["about-container"]}>
+    <div className={classes["about-container"]} id="about">
       <img src={aboutImg} alt="about" className={classes["about-img"]} />
       <div className={classes["about-info-container"]}>
         <span className={classes["about-info-title"]}>About Us</span>

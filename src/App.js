@@ -11,12 +11,14 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <React.Fragment>
-      <Header />
-      <HeaderContent />
-      <Service />
-      <About />
-      <Clients />
-      <Footer />
+      <div className={classes["app-container"]}>
+        <Header />
+        <HeaderContent />
+        <Service />
+        <About />
+        <Clients />
+        <Footer />
+      </div>
     </React.Fragment>
   );
 }

@@ -1,12 +1,14 @@
 import classes from "./HeaderContent.module.scss";
-import headerContentImg from "../local-img/header-content.jpg";
 
 const HeaderContent = function () {
   return (
     <div className={classes["header-content-container"]}>
       <div className={classes["header-content-info-container"]}>
         <span className={classes["header-content-title"]}>
-          Creative Consulting Agency For Smart Solutions
+          <span className={classes["header-content-title-red"]}>Creative</span>{" "}
+          Consulting Agency For{" "}
+          <span className={classes["header-content-title-red"]}>Smart</span>{" "}
+          Solutions
         </span>
         <p className={classes["header-content-paragraph"]}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
