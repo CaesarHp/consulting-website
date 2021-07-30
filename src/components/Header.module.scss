@@ -37,18 +37,17 @@
     }
   }
 
-  & li {
-    @media only screen and (max-width: $bp-large) {
-      padding: 1.5rem;
-    }
-  }
-
   &-home-btn {
     font-family: inherit;
     font-size: 1.4rem;
     color: $color-grey-dark-1;
     font-weight: 700;
     cursor: pointer;
+
+    @media only screen and (max-width: $bp-large) {
+      display: block;
+      padding: 2.5rem;
+    }
   }
 
   &-link {
@@ -58,6 +57,11 @@
     font-weight: 700;
     text-decoration: none;
     cursor: pointer;
+
+    @media only screen and (max-width: $bp-large) {
+      display: block;
+      padding: 2.5rem;
+    }
   }
 
   &-link:link,
@@ -74,6 +78,8 @@
     width: 100%;
     background-color: white;
     text-align: center;
+
+    //transition: all 0.5s ease-in-out;
   }
 }
 
@@ -90,18 +96,17 @@
     }
   }
 
-  & li {
-    @media only screen and (max-width: $bp-large) {
-      padding: 1.5rem;
-    }
-  }
-
   &-home-btn {
     font-family: inherit;
     font-size: 1.4rem;
     color: $color-grey-dark-1;
     font-weight: 700;
     cursor: pointer;
+
+    @media only screen and (max-width: $bp-large) {
+      display: block;
+      padding: 2.5rem;
+    }
   }
 
   &-link {
@@ -111,6 +116,11 @@
     font-weight: 700;
     text-decoration: none;
     cursor: pointer;
+
+    @media only screen and (max-width: $bp-large) {
+      display: block;
+      padding: 2.5rem;
+    }
   }
 
   &-link:link,
@@ -128,6 +138,8 @@
     background-color: white;
     text-align: center;
     transform: translateX(100%);
+
+    //transition: all 0.5s ease-in-out;
   }
 }
 

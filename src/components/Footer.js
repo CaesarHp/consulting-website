@@ -60,7 +60,7 @@ const Footer = function () {
       </div>
 
       <div className={classes["footer-about-container"]}>
-        <span className={classes["footer-about-title"]}>About Jobsity</span>
+        <span className={classes["footer-about-title"]}>About Jobstay</span>
         <p className={classes["footer-about-paragraph"]}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -87,7 +87,7 @@ const Footer = function () {
         </IconContext.Provider>
 
         <span className={classes["footer-about-copyright"]}>
-          © 2010-2021 Jobstiy Consulting Group. All rights reserved.
+          © 2010-2021 Jobstay Consulting Group. All rights reserved.
         </span>
       </div>
     </div>
