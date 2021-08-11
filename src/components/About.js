@@ -8,25 +8,37 @@ const About = function () {
       <div className={classes["about-info-container"]}>
         <span className={classes["about-info-title"]}>About Us</span>
         <p className={classes["about-info-paragraph"]}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum.
+          The immigration-business industry is very saturated with many options,
+          but how do we know which ones we can trust? In the past, the market
+          was flooded with consultants and lawyers that didn’t always have the
+          best interests in mind for their clients
         </p>
-        <div className={classes["about-info-details"]}>
-          <span className={classes["about-info-detail"]}>
-            - Lorem ipsum dolor sit amet
-          </span>
-          <span className={classes["about-info-detail"]}>
-            - Quis nostrud exercitation ullamco laboris
-          </span>
-          <span className={classes["about-info-detail"]}>
-            - Excepteur sint occaecat cupidatat
-          </span>
-        </div>
+        <p className={classes["about-info-paragraph"]}>
+          We now present you with the solution. A platform of a grand service
+          group that will revolutionize the industry: putting quality
+          consultants and lawyers in the group with a system that will
+          streamline the process of connecting one-on-one with someone you can
+          trust
+        </p>
+        <p className={classes["about-info-paragraph"]}>
+          This online platform will critically analyze how each firm may
+          specialize in different services and play to their strengths. Once you
+          click on a provide, it will then show ratings and testimonials from
+          customers overall and then assign a star next to the best services
+          offered by the company.
+        </p>
+        <p className={classes["about-info-paragraph"]}>
+          With one click of a button, you are able to instantly connect with
+          someone who specializes in your exact expertise that you can trust. It
+          is your future that we care about.
+        </p>
+        <p className={classes["about-info-paragraph"]}>
+          Remember, your new life begins with a Jobystay!
+        </p>
 
-        <button className={classes["about-button"]}>Contact Us</button>
+        <a href="mailto:info@jobstay.co" className={classes["about-button"]}>
+          Contact Us
+        </a>
       </div>
     </div>
   );

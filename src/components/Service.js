@@ -5,15 +5,14 @@ const Service = function () {
     <div className={classes["service-container"]} id="service">
       <div className={classes["service-title-container"]}>
         <span className={classes["service-subtitle"]}>
-          - Consulting Agency with Perfect Experience -
+          A Grand Service Group That Satisfies All Your Settlement Needs
         </span>
         <span className={classes["service-title"]}>
           Our Professional Services
         </span>
         <p className={classes["service-description"]}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Vestibulum
-          lorem sed risus ultricies.
+          Our up-to-date, fast, and reliable customer service solution system
+          will streamline your settlement process.
         </p>
       </div>
 
@@ -21,34 +20,28 @@ const Service = function () {
         <div className={classes["service-detail"]}>
           <span className={classes["service-detail-number"]}>01</span>
           <span className={classes["service-detail-title"]}>
-            Professional Consulting
+            Professional Services
           </span>
           <p className={classes["service-detail-info"]}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Vestibulum lorem sed risus ultricies.
+            Receive the best settlement services from our reputable providers
           </p>
         </div>
         <div className={classes["service-detail"]}>
           <span className={classes["service-detail-number"]}>02</span>
           <span className={classes["service-detail-title"]}>
-            Online Requtation
+            Customer Services
           </span>
           <p className={classes["service-detail-info"]}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Vestibulum lorem sed risus ultricies.
+            Our customer service team is ready to assist you 24/7
           </p>
         </div>
         <div className={classes["service-detail"]}>
           <span className={classes["service-detail-number"]}>03</span>
           <span className={classes["service-detail-title"]}>
-            Market Research
+            Newest Technology
           </span>
           <p className={classes["service-detail-info"]}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Vestibulum lorem sed risus ultricies.
+            We maintain our service standard with the most up-to-date technology
           </p>
         </div>
       </div>

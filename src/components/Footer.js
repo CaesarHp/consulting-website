@@ -27,7 +27,7 @@ const Footer = function () {
                   Official Address
                 </span>
                 <span className={classes["footer-info-detail-subtitle"]}>
-                  3456 Yonge St. Toronto ON M1A 2B3
+                  95 Mural Street, Richmond Hill, L4B 3G2
                 </span>
               </div>
             </div>
@@ -38,9 +38,12 @@ const Footer = function () {
                 <span className={classes["footer-info-detail-title"]}>
                   Email Us
                 </span>
-                <span className={classes["footer-info-detail-subtitle"]}>
-                  suppor@jobsity.com
-                </span>
+                <a
+                  href="mailto:info@jobstay.co"
+                  className={classes["footer-info-detail-subtitle"]}
+                >
+                  info@jobstay.co
+                </a>
               </div>
             </div>
 
@@ -50,9 +53,12 @@ const Footer = function () {
                 <span className={classes["footer-info-detail-title"]}>
                   Call Us
                 </span>
-                <span className={classes["footer-info-detail-subtitle"]}>
-                  +1 647 123 1234
-                </span>
+                <a
+                  href="tel:905-462-6688"
+                  className={classes["footer-info-detail-subtitle"]}
+                >
+                  905-462-6688
+                </a>
               </div>
             </div>
           </div>
@@ -62,9 +68,8 @@ const Footer = function () {
       <div className={classes["footer-about-container"]}>
         <span className={classes["footer-about-title"]}>About Jobstay</span>
         <p className={classes["footer-about-paragraph"]}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud.
+          The most customer oriented grand service group. Your life begins with
+          a Jobstay!
         </p>
 
         <IconContext.Provider
@@ -87,7 +92,7 @@ const Footer = function () {
         </IconContext.Provider>
 
         <span className={classes["footer-about-copyright"]}>
-          © 2010-2021 Jobstay Consulting Group. All rights reserved.
+          © 2021 Jobstay. All rights reserved.
         </span>
       </div>
     </div>

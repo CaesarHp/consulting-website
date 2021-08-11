@@ -5,18 +5,37 @@ const HeaderContent = function () {
     <div className={classes["header-content-container"]}>
       <div className={classes["header-content-info-container"]}>
         <span className={classes["header-content-title"]}>
-          <span className={classes["header-content-title-red"]}>Creative</span>{" "}
-          Consulting Agency For{" "}
-          <span className={classes["header-content-title-red"]}>Smart</span>{" "}
-          Solutions
+          Your New Life Begins With a{" "}
+          <span className={classes["header-content-title-red"]}>Jobstay</span>
         </span>
         <p className={classes["header-content-paragraph"]}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          Are you in one of the service providers in the following industries:
         </p>
-        <button className={classes["header-content-button"]}>Contact Us</button>
+        <ul className={classes["header-content-list"]}>
+          <li>Immigration</li>
+          <li>Finance</li>
+          <li>Study Abroad</li>
+          <li>Real Estate</li>
+          <li>Employment</li>
+        </ul>
+
+        <p className={classes["header-content-paragraph"]}>
+          Are you a stand to assist all the newcomers to get the life of their
+          dreams?
+        </p>
+        <p className={classes["header-content-paragraph"]}>
+          Jobstay may be the best option for you.
+        </p>
+        <p className={classes["header-content-paragraph"]}>
+          Please contact us and let us explore a realm of possibilities
+          together.
+        </p>
+        <a
+          href="mailto:info@jobstay.co"
+          className={classes["header-content-button"]}
+        >
+          Join Us
+        </a>
       </div>
     </div>
   );

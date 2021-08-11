@@ -5,7 +5,6 @@ import Header from "./components/Header";
 import HeaderContent from "./components/HeaderContent";
 import Service from "./components/Service";
 import About from "./components/About";
-import Clients from "./components/Clients";
 import Footer from "./components/Footer";
 
 function App() {
@@ -16,7 +15,6 @@ function App() {
         <HeaderContent />
         <Service />
         <About />
-        <Clients />
         <Footer />
       </div>
     </React.Fragment>
