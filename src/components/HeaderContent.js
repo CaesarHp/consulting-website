@@ -4,10 +4,10 @@ const HeaderContent = function () {
   return (
     <div className={classes["header-content-container"]}>
       <div className={classes["header-content-info-container"]}>
-        <span className={classes["header-content-title"]}>
+        <h1 className={classes["header-content-title"]}>
           Your New Life Begins With a{" "}
           <span className={classes["header-content-title-red"]}>Jobstay</span>
-        </span>
+        </h1>
         <p className={classes["header-content-paragraph"]}>
           Are you in one of the service providers in the following industries:
         </p>

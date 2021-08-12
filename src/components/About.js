@@ -6,7 +6,7 @@ const About = function () {
     <div className={classes["about-container"]} id="about">
       <img src={aboutImg} alt="about" className={classes["about-img"]} />
       <div className={classes["about-info-container"]}>
-        <span className={classes["about-info-title"]}>About Us</span>
+        <h1 className={classes["about-info-title"]}>About Us</h1>
         <p className={classes["about-info-paragraph"]}>
           The immigration-business industry is very saturated with many options,
           but how do we know which ones we can trust? In the past, the market

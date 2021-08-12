@@ -7,9 +7,7 @@ const Service = function () {
         <span className={classes["service-subtitle"]}>
           A Grand Service Group That Satisfies All Your Settlement Needs
         </span>
-        <span className={classes["service-title"]}>
-          Our Professional Services
-        </span>
+        <h1 className={classes["service-title"]}>Our Professional Services</h1>
         <p className={classes["service-description"]}>
           Our up-to-date, fast, and reliable customer service solution system
           will streamline your settlement process.
