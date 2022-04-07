@@ -54,10 +54,10 @@ const Footer = function () {
                   Call Us
                 </span>
                 <a
-                  href="tel:905-462-6688"
+                  href="tel:416-854-3636"
                   className={classes["footer-info-detail-subtitle"]}
                 >
-                  905-462-6688
+                  416-854-3636
                 </a>
               </div>
             </div>
